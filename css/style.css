@@ -16,7 +16,7 @@ html {
 
 body {
     font-size: 2rem;
-    font-family: "Trebuchet MS", Sans-Serif;
+    font-family: "Courier New";
     font-weight: normal;
     color: #151515;
     margin: 4rem;
@@ -35,7 +35,7 @@ div {
 }
 
 .divider {
-    width: 60%;
+    width: 100%;
     height: .5rem;
     background: linear-gradient(45deg,#1d8a99,#0bc9cd,#14fff7,#8fbfe0,#7c77b9);
 }
@@ -63,7 +63,7 @@ div {
 
 main {
     color: white;
-    padding: 2rem;
+    padding: 0 2rem 2rem 0;
     margin-top: 1rem;
 }
 
@@ -76,10 +76,14 @@ section {
 }
 
 button,input {
-    height: 3rem;
+    padding: 1rem;
     background: #151515;
     color: white;
     border: 1px solid white;
+}
+
+input {
+    width: 25%;
 }
 
 img{
@@ -89,11 +93,14 @@ img{
 
 i {
     font-size: 5rem;
-    color: #a63d40;
 }
 
 h1 {
     margin-top: 0;
+}
+
+h2 {
+    color: #7c77b9;
 }
 /******************************************
 /* ADDITIONAL STYLES
