@@ -24,7 +24,7 @@
                 document.querySelector('h3').innerText = 'Nope!'
             }
         }
-        document.querySelector('h2').innerText = data.results[0].question
+        document.querySelector('h2').innerHTML = data.results[0].question
       })
       .catch(err => {
           console.log(`error ${err}`)
