@@ -105,3 +105,11 @@ h2 {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+@media all and (max width: 500px) {
+    #one {
+        width: 100%;
+    }
+    #two,#three,#four,#five {
+        display: none;
+    }
+}

@@ -4,6 +4,7 @@
     	<meta charset="utf-8">
     	<meta name="description" content="A trivia game">
     	<meta name="keywords" content="">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>Quizzical</title>
 
@@ -27,8 +28,35 @@
 	    </header>
 	    <div class="divider"></div>
         <main>
-<!--		<button type="button" name="button">Let's Play!</button>-->
-            <!--<button type="button" name="button" id="category">Choose a category</button>-->
+            <label for="category-select">Choose a category:</label>
+            <select name="categories" id="category-select">
+                <option value="">--Please select a category--</option>
+                <option value="general" class="general" id="general">General Knowledge</option>
+                <option value="entertainment-books" class="entertainment" id="books">Entertainment: Books</option>
+                <option value="entertainment-film" class="entertainment" id="film">Entertainment: Film</option>
+                <!--<option value="general" class="general" id="general">General Knowledge</option>
+                <option value="general" class="general" id="general">General Knowledge</option>
+                <option value="general" class="general" id="general">General Knowledge</option>
+                <option value="general" class="general" id="general">General Knowledge</option>
+                <option value="general" class="general" id="general">General Knowledge</option>
+                <option value="general" class="general" id="general">General Knowledge</option>
+                <option value="general" class="general" id="general">General Knowledge</option>
+                <option value="general" class="general" id="general">General Knowledge</option>
+                <option value="general" class="general" id="general">General Knowledge</option>
+                <option value="general" class="general" id="general">General Knowledge</option>
+                <option value="general" class="general" id="general">General Knowledge</option>
+                <option value="general" class="general" id="general">General Knowledge</option>
+                <option value="general" class="general" id="general">General Knowledge</option>
+                <option value="general" class="general" id="general">General Knowledge</option>
+                <option value="general" class="general" id="general">General Knowledge</option>
+                <option value="general" class="general" id="general">General Knowledge</option>
+                <option value="general" class="general" id="general">General Knowledge</option>
+                <option value="general" class="general" id="general">General Knowledge</option>
+                <option value="general" class="general" id="general">General Knowledge</option>
+                <option value="general" class="general" id="general">General Knowledge</option>
+                <option value="general" class="general" id="general">General Knowledge</option>-->
+            </select>
+            <button type="button" name="button" id="cat-button">Select</button>
     		<h2></h2>
     		<!--<img src="" alt="">-->
     		<input type="text" name="" value="" placeholder="Type your answer here">
