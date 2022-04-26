@@ -1,6 +1,5 @@
 document.querySelector('#cat-button').addEventListener('click',getFetch)
 
-
 function getFetch(){
 //  const numOfQuestions = document.querySelector('input').value
   let catChoice = document.querySelector('#category-select option:checked').id
@@ -17,7 +16,7 @@ function getFetch(){
         function submitAnswer() {
             let userAnswer = document.querySelector('input').value.toLowerCase()
             let correctAnswer = data.results[0].correct_answer.toLowerCase()
-    
+            
             if (userAnswer === correctAnswer) {
                 console.log('Correct!')
                 addScore()
@@ -40,7 +39,7 @@ function addScore(){
 }
 }
 
-document.getElementById('next').addEventListener('click', nextQuestion)
+/*document.getElementById('next').addEventListener('click', nextQuestion)
 
 function nextQuestion () {
     fetch(url)
@@ -67,7 +66,7 @@ function nextQuestion () {
       .catch(err => {
           console.log(`error ${err}`)
       });
-}
+}*/
 
 /*document.getElementById('category').addEventListener('click', getCategory)
 const categoies = 'https://opentdb.com/api_category.php'
